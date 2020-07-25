@@ -11,10 +11,13 @@ public class JenkinsController {
         return "Hello Jenkins";
     }
 
-
-
     @RequestMapping(value = "/testJenkins2")
     public String testJenkins2(){
         return "GUANGUAN";
+    }
+
+    @RequestMapping(value = "/guanguan")
+    public String woman(){
+        return "my woman";
     }
 }
