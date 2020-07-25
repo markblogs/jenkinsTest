@@ -18,6 +18,6 @@ public class JenkinsController {
 
     @RequestMapping(value = "/guanguan")
     public String woman(){
-        return "adff asdf sss111bc";
+        return "adff asdf sss111//////////bc";
     }
 }
